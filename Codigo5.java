@@ -13,7 +13,7 @@ public class Codigo5 {
 	
 	public static void main(String[] args) { // Hacia falta colocar todo dentro del metodo main
 		Scanner s = new Scanner(System.in); // Se coloco System.in como argumento
-		System.out.print("Introduzca un número: ");
+		System.out.print("Introduzca un número entero: ");
 		String ni = s.nextLine();
 		int c = Integer.parseInt(ni); // Se debe convertir el String a int usando Integer.parseInt() 
 
